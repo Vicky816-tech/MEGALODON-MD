@@ -13,20 +13,20 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~SRkFQAAA#FmR4AuY6T4eAy-NlncnbNb_piHB1Sk7g6NFSPTjkiRg",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~uUVACA5C#HnQ0YuuWc3OTWaEgXL59jW29TDaZ_qSqdRn1DDPhyEQ",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "MEGALODON-MD",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
     // ===== OWNER & DEVELOPER SETTINGS =====
     OWNER_NUMBER: process.env.OWNER_NUMBER || "50948702213",  // Owner's WhatsApp number
     
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "",           // Owner's name
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ᐯ丨匚Ҝㄚ ㄒ乇匚卄(😎)",           // Owner's name
     
     DEV: process.env.DEV || "50948336180",                     // Developer's contact number
     
     // ===== AUTO-RESPONSE SETTINGS =====
     
-    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",// Reply to status updates?
+    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",// Reply to status updates?
     AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*MEGALODON BOT VIEWED YOUR STATUS 🤖*",  // Status reply message
     READ_MESSAGE: process.env.READ_MESSAGE || "false",          // Mark messages as read automatically?
 
@@ -39,7 +39,7 @@ module.exports = {
     
     // ===== MEDIA & AUTOMATION =====
     AUTO_RECORDING: process.env.AUTO_RECORDING || "false",      // Auto-record voice notes?
-    AUTO_TYPING: process.env.AUTO_TYPING || "false",   // Show typing indicator?
+    AUTO_TYPING: process.env.AUTO_TYPING || "true",   // Show typing indicator?
     MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/roubzi.jpg",  // Bot's "alive" image
 
     // ===== SECURITY & ANTI-FEATURES =====
@@ -55,11 +55,11 @@ module.exports = {
 // make anti link true,false for groups 
     ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "false",
     
-    ANTILINK_WARN: process.env.ANTILINK_WARN || "false",
+    ANTILINK_WARN: process.env.ANTILINK_WARN || "true",
     
      ANTILINK: process.env.ANTILINK || "false",
     
-    ANTI_VV: process.env.ANTI_VV || "false",  
+    ANTI_VV: process.env.ANTI_VV || "true",  
     // Block view-once messages?
     DELETE_LINKS: process.env.DELETE_LINKS || "false",  
     // Auto-delete links?
@@ -78,7 +78,7 @@ module.exports = {
     // VIEW to status updates?
     AUTO_BIO: process.env.AUTO_BIO || "false",
     
-    WELCOME: process.env.WELCOME || "false",
+    WELCOME: process.env.WELCOME || "true",
     
     AMDIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 };
