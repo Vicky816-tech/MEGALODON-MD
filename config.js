@@ -13,7 +13,7 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~PZVlBbpA#A57wTSa3HmEbbxxI0SVF0xO25pqDSqGNxKnBnyfasYA",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~uU12XDBS#DUJy8VgdmTz-B8YTWQwKya8oA8I83DMFAPVBDKcwOGU",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "MEGALODON-MD",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
@@ -27,12 +27,12 @@ module.exports = {
     // ===== AUTO-RESPONSE SETTINGS =====
     
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",// Reply to status updates?
-    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*MEGALODON BOT VIEWED YOUR STATUS 🤖*",  // Status reply message
+    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*🔪*",  // Status reply message
     READ_MESSAGE: process.env.READ_MESSAGE || "false",          // Mark messages as read automatically?
 
     // ===== REACTION & STICKER SETTINGS =====
     AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?
-    CUSTOM_REACT: process.env.CUSTOM_REACT || "true",          // Use custom emoji reactions?
+    CUSTOM_REACT: process.env.CUSTOM_REACT || "false",          // Use custom emoji reactions?
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  // Custom reaction emojis
     STICKER_NAME: process.env.STICKER_NAME || "ᐯ丨匚Ҝㄚ ㄒ乇匚卄",     // Sticker pack name
 
@@ -48,7 +48,7 @@ module.exports = {
     ANTI_DELETE: process.env.ANTI_DELETE || "true",
     ANTI_CALL: process.env.ANTI_CALL || "false",
 
-    REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
+    REJECT_MSG: process.env.REJECT_MSG || "*📞 don't call me fool📵*",
     ANTI_BAD: process.env.ANTI_BAD || "false",                  // Block bad words?
 
     ANTI_LINK_KICK: process.env.ANTILINK_KICK || "false",
@@ -70,13 +70,13 @@ module.exports = {
    
     PUBLIC_MODE: process.env.PUBLIC_MODE || "true",     
     // Allow public commands?
-    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
     // Show bot as always online?
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
     // React to status updates?
-    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
+    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "truee",
     // VIEW to status updates?
-    AUTO_BIO: process.env.AUTO_BIO || "false",
+    AUTO_BIO: process.env.AUTO_BIO || "true",
     
     WELCOME: process.env.WELCOME || "true",
     
