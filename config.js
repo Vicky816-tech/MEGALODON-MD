@@ -33,7 +33,7 @@ module.exports = {
     // ===== REACTION & STICKER SETTINGS =====
     AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",          // Use custom emoji reactions?
-    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "🔪,🤖,🖕,😶‍🌫️,🙆,🤦,🧘,🫄,🛑,🚗",  // Custom reaction emojis
+    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "🔪,🤖,🖕,😶‍🌫️,🫂,🙆,🤦,🧘,🫄,🛑,🚗",  // Custom reaction emojis
     STICKER_NAME: process.env.STICKER_NAME || "ᐯ丨匚Ҝㄚ ㄒ乇匚卄",     // Sticker pack name
 
     
