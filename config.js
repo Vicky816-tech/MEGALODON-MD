@@ -13,7 +13,7 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~SggAQBCI#W3PTRNJulZjKZriyFKF5Sp7NGAtTe2bO2xqZAdwmokA",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~G0gUxbTT#qpthBvIcxt56hCc_1bMSHxMoa_58-r7X_feuZQt0B_4",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "MEGALODON-MD",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
@@ -32,7 +32,7 @@ module.exports = {
 
     // ===== REACTION & STICKER SETTINGS =====
     AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?
-    CUSTOM_REACT: process.env.CUSTOM_REACT || "true",          // Use custom emoji reactions?
+    CUSTOM_REACT: process.env.CUSTOM_REACT || "falsee",          // Use custom emoji reactions?
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  // Custom reaction emojis
     STICKER_NAME: process.env.STICKER_NAME || "ᐯ丨匚Ҝㄚ ㄒ乇匚卄(😎)",     // Sticker pack name
 
@@ -49,7 +49,7 @@ module.exports = {
     ANTI_CALL: process.env.ANTI_CALL || "true",
 
     REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
-    ANTI_BAD: process.env.ANTI_BAD || "false",                  // Block bad words?
+    ANTI_BAD: process.env.ANTI_BAD || "true",                  // Block bad words?
 
     ANTI_LINK_KICK: process.env.ANTILINK_KICK || "true",
 // make anti link true,false for groups 
