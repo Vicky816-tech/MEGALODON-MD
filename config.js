@@ -13,7 +13,7 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~G0gUxbTT#qpthBvIcxt56hCc_1bMSHxMoa_58-r7X_feuZQt0B_4",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~upgTzbjR#MyNAv3-7ydBCYhPJIazeDAcG3QNGhcoiy9GAn0OZNxE",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "MEGALODON-MD",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
@@ -48,7 +48,7 @@ module.exports = {
     ANTI_DELETE: process.env.ANTI_DELETE || "true",
     ANTI_CALL: process.env.ANTI_CALL || "true",
 
-    REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
+    REJECT_MSG: process.env.REJECT_MSG || "*📞 нανє ᴘєʀмιѕѕισɴ 📵*",
     ANTI_BAD: process.env.ANTI_BAD || "true",                  // Block bad words?
 
     ANTI_LINK_KICK: process.env.ANTILINK_KICK || "true",
